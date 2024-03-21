@@ -91,7 +91,7 @@ h3 {
 
 article {
 	width: 15%;
-	margin: 0px 20px;
+	margin: 0px 15px;
 	display: flex;
 	flex-direction: column;
 }
@@ -100,7 +100,7 @@ p {
 	font-family: 'Archivo';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 17px;
 	color: var(--drak-grey-color);
 }
@@ -110,7 +110,7 @@ p {
 .directionRow {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .directionColumn {
@@ -130,7 +130,15 @@ p {
 }
 
 .textCenter {
+	justify-content: center;
 	text-align: center;
+}
+
+.imageFounder {
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	gap:55px;
 }
 
 /***************/
