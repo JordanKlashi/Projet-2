@@ -189,7 +189,7 @@ p {
     grid-template-columns: 1fr 1fr;
   }
   .directionRow article {
-    width: 85%;
+    width: 95%;
   }
   .directionRow article h3, .directionRow article p {
     font-size: medium;
@@ -200,6 +200,10 @@ p {
   }
 }
 @media (max-width: 650px) {
+  .container {
+    min-width: auto;
+    max-width: none;
+  }
   h1 {
     font-size: 2rem;
   }
